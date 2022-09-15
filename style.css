@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+body{
+  background: hsl(218, 23%, 16%);
+  font-family: 'Manrope', sans-serif;
+}
+
+.container{
+  border-radius: 15px;
+  background-color: hsl(217, 19%, 24%);
+  width: 28vw;
+  margin: 25vh auto;
+  padding: 5vh 5vh 0 5vh;
+}
+
+.advice_no{
+  color: hsl(150, 100%, 66%);
+  font-size: 14px;
+  text-align: center;
+}
+
+.advice_text{
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  text-align: center;
+}
+
+.divider{
+  width: 28vw;
+  margin: auto;
+}
+.divider_img{
+  width: 28vw;
+}
+
+.button_cover{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 4vh;
+}
+.button{
+  background: hsl(150, 100%, 66%);
+  padding: 2.1vh 2.3vh 2vh 2.3vh;
+  border-radius: 50%;
+  border: none;
+}
+.button_img{
+  text-align: center;
+}
+.button:hover{
+  background: hsl(150, 96%, 58%);
+}
+.button:active{
+  box-shadow: 3px 3px 35px 1px hsl(150, 100%, 66%);
+}
+
+
+@media screen and (max-width: 1440px){
+
+  .container{
+    width: 32vw;
+  }
+
+  .divider{
+    width: 31vw;
+  }
+  .divider_img{
+    width: 31vw;
+  }
+
+}
+
+@media screen and (max-width: 375px){
+  
+  .container{ 
+    width: 80vw;
+    margin: 25vh auto;
+    padding: 3vh 3vh 0 3vh;
+  }  
+
+  .advice_no{
+    font-size: 10px;
+  }
+
+  .advice_text{
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .divider{
+    width: 78vw;
+  }
+  .divider_img{
+    width: 78vw;
+  }
+
+  .button{
+    padding: 1.7vh 1.7vh 1.4vh 1.8vh;
+  }
+
+}
+
+
